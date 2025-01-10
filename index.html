@@ -14,19 +14,23 @@
         <!-- riga -->
         <div class="row">
             <!-- colonna uno -->
-          <div class="col-12 col-lg-10 d-flex align-items-center justify-content-center finestra ">
-            <img src="./img/white_lamp.png" alt="">
-          </div>
-          <!-- colonna due -->
-          <div class="col-12 col-lg-2 d-flex align-items-center justify-content-center"> 
-            <div class="button">
-                <p id="stato">ACCENDI</p>
-                <i class="fa-solid fa-toggle-on light-btn-off"></i>
+            <div class="col-12 col-lg-10 d-flex align-items-center justify-content-center finestra ">
+                <!-- immagine lampadina -->
+                <img id="light" src="./img/white_lamp.png" alt="">
             </div>
-          </div>
+          <!-- colonna due -->
+            <div class="col-12 col-lg-2 d-flex align-items-center justify-content-center"> 
+                <!-- cassetta contenimento pulsante e stato -->
+                <div class="cassetta">
+                    <!-- stato del pulsante -->
+                    <p id="stato">ACCENDI</p>
+                    <!-- pulsante della lampadina -->
+                    <i id="btn" class="fa-solid fa-toggle-on light-btn-off"></i>
+                </div>
+            </div>
         </div>
-      </div>
-      
-      <script src="./js/script.js"></script>
+    </div>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>

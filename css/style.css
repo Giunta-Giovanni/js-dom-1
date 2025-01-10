@@ -35,9 +35,11 @@
     height: auto;
 }
 
-.button{
-    background-color: lightgray;
+.cassetta {
+    width: 140px;
+    height: 120px;
     padding: 10px;
+    background-color: lightgray;
     border-radius: 10px;
 }
 
@@ -45,8 +47,13 @@
     background-color: white;
     padding: 5px;
     border-radius: 9999px;
+    margin: 10px;
 }
 
+
+#btn{
+    cursor: pointer;
+}
 .light-btn-off{
     transform: rotate(90deg); /* Centra esattamente l'immagine */
     font-size: 40px;
